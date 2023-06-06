@@ -44,7 +44,7 @@ const AboutSection = () => {
 
     const scrollTriggerInstance = ScrollTrigger.create({
       trigger: targetSection.current,
-      start: "center 80%",
+      start: "center 50%",
       end: "center top",
       scrub: 0,
       animation: timeline,
@@ -63,14 +63,14 @@ const AboutSection = () => {
   }, [quoteRef, targetSection]);
 
   const renderQuotes = (): React.ReactNode => (
-    <h1 ref={quoteRef} className="font-medium text-3xl sm:text-4xl md:text-6xl">
+    <h1 ref={quoteRef} className="font-medium text-3xl sm:text-4xl md:text-5xl">
       <span
         className={`about-1 leading-tight ${
           willChange ? "will-change-opacity" : ""
         }`}
       >
-        I am a passionate UI Engineer who bridges the gap between development
-        and design.{" "}
+        I am a passionate Front-End Developer who bridges the gap between
+        development and design.{" "}
       </span>
       <span
         className={`about-2 leading-tight ${

@@ -16,6 +16,7 @@ const Header = () => {
       <div className="flex justify-between section-container">
         <a href="#home" className="link">
           <Image
+            className="rotate-180"
             src="/logo.svg"
             alt="Logo - Ayush Singh"
             width={22}

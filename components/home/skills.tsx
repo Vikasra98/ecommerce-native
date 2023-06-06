@@ -80,6 +80,8 @@ const SkillsSection = () => {
     </>
   );
 
+  // const skillImage = skill.endsWith(".svg") ? svgImage : pngImage;
+
   const renderSkillColumn = (
     title: string,
     skills: string[]
@@ -92,14 +94,21 @@ const SkillsSection = () => {
         }`}
       >
         {skills.map((skill) => (
-          <Image
-            key={skill}
-            src={`/skills/${skill}.svg`}
-            alt={skill}
-            width={76}
-            height={76}
-            className="skill"
-          />
+          <>
+            <Image
+              key={skill}
+              // src={`/skills/${skill}.svg`}
+              src={
+                `/skills/${skill}` === "/skills/boot"
+                  ? `/skills/${skill}.png`
+                  : `/skills/${skill}.svg`
+              }
+              alt={skill}
+              width={76}
+              height={76}
+              className="skill"
+            />
+          </>
         ))}
       </div>
     </>
