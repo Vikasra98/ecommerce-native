@@ -2,7 +2,7 @@
 
 ## FOLIO
 
-[Live Demo](https://ayushsingh.net/)
+[Live Demo](https://vikasranjan-portfolio.vercel.app/)
 
 To cater to my goal of having my own portfolio website since 2016 🚀
 

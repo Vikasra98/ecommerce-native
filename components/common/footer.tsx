@@ -1,6 +1,6 @@
 // Copyright Vikas Ranjan 2023. All Rights Reserved.
 // Project: folio
-// Author contact: https://www.linkedin.com/in/alphaayush/
+// Author contact: https://www.linkedin.com/in/vikas-ranjan-4a83aa165/
 // This file is licensed under the MIT License.
 // License text available at https://opensource.org/licenses/MIT
 
@@ -36,7 +36,7 @@ const Footer = () => {
           name="Resume"
           target="_blank"
           rel="noreferrer"
-          href="/Ayush_Resume.pdf"
+          href="/Vikas's_Resume.pdf"
         ></Button>
         <Button
           classes="ml-3"

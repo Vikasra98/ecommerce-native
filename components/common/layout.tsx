@@ -1,6 +1,6 @@
-// Copyright Ayush Singh 2021,2022. All Rights Reserved.
+// Copyright Vikas Ranjan 2021,2022. All Rights Reserved.
 // Project: folio
-// Author contact: https://www.linkedin.com/in/alphaayush/
+// Author contact: https://www.linkedin.com/in/vikas-ranjan-4a83aa165/
 // This file is licensed under the MIT License.
 // License text available at https://opensource.org/licenses/MIT
 
@@ -27,7 +27,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
         <meta property="og:site_name" content={METADATA.title} />
         <meta
           property="og:image"
-          content="https://www.ayushsingh.net/preview.jpg"
+          content="https://www.vikasranjan.net/preview.jpg"
         />
         <meta property="og:image:secure_url" content={METADATA.siteUrl} />
         <meta property="og:image:width" content="1440" />
