@@ -64,7 +64,7 @@ const HeroSection = React.memo(() => {
     <div className={HERO_STYLES.BG_WRAPPER} style={{ maxHeight: "650px" }}>
       {/* <HeroImage /> */}
       <img
-        className="h-screen"
+        className="banner-img h-screen"
         src="/timeline/banner.gif"
         alt="Computer man"
       ></img>
