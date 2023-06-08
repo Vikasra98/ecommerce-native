@@ -54,6 +54,12 @@ html {
   @media (min-width: 2000px) {
     font-size: 22px;
   }
+
+  @media (max-width: 768px) {
+    .banner-img {
+      display: none;
+    }
+  }
 }
 
 :root {
@@ -287,11 +293,3 @@ footer {
 .section-title-sm {
   @apply uppercase tracking-widest text-gray-200 text-sm;
 }
-
-@media screen and (max-width:768px) {
-  .banner-img {
-   display: none;
-  }
-}
-
-
